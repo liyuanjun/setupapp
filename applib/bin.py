@@ -65,6 +65,3 @@ def run():
     """ 入口方法 """
     args = docopt(__doc__, version='1.0.0')
     SetupApp(**args).command()
-
-
-run()
