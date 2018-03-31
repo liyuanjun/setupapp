@@ -1,6 +1,9 @@
 # setupapp
 > a simple demo for Python setup test.
 
+### docs
+> https://packaging.python.org/tutorials/distributing-packages/#uploading-your-project-to-pypi
+
 ### environment
 ```bash
 $ pip install docopt

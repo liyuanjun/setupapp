@@ -12,6 +12,9 @@ env/
 build/
 develop-eggs/
 dist/
+build/
+setupapp.egg-info/
+.idea/
 downloads/
 eggs/
 .eggs/

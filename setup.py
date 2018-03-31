@@ -9,11 +9,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='setupapp',
-    version='1.0.0',
+    version='0.0.1',
     author='tom.lee',
+    author_email='liyuanjunmail@qq.com',
     url='https://github.com/amlyj/setupapp',
-    description='simple demo for python setup',
+    description='simple demo for python setup, author tom',
+    long_description=open("README.rst").read(),
     license="MIT",
+    install_requires=[
+        'docopt'
+    ],
     packages=find_packages(),
     entry_points={
         # console_scripts  输出脚本文件
