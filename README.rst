@@ -1,49 +1,65 @@
-# setupapp
-> a simple demo for Python setup test.
+setupapp
+========
+a simple demo for Python setup test.
 
-### docs
-> https://packaging.python.org/tutorials/distributing-packages/#uploading-your-project-to-pypi
 
-### environment
-```bash
-$ pip install docopt
-```
+Installation
+------------
 
-### install
-```bash
-$ git clone https://github.com/amlyj/setupapp.git && cd setupapp && python setup.py install
-```
-### bash
-```bash
-[root@node1 setupapp]# setupapp 
+.. way1::
+   $ pip install setupapp
+.. way2::
+   $ git clone https://github.com/amlyj/setupapp.git && cd setupapp && python setup.py install
 
-setup commands:
-    simple demo for python setup.
 
-Usage:
-    setupapp -l
-    setupapp -h | --help
-    setupapp -v | --version
-    setupapp -m
-    setupapp -P <port>
-    setupapp -H <ip>
-    setupapp [-H <ip>] [-P <port>]
+Help
+----
 
-Arguments:
-    ip    output ip
-    port  output port
+.. cmd::
+    setup commands:
+        simple demo for python setup.
 
-Options:
-    -h --help        帮助
-    -v --version     版本.
-    -l               列表.
-    -m               say hello
+    Usage:
+        setupapp -l
+        setupapp -h | --help
+        setupapp -v | --version
+        setupapp -m
+        setupapp -P <port>
+        setupapp -H <ip>
+        setupapp [-H <ip>] [-P <port>]
 
-[root@node1 setupapp]# setupapp -l
- 1
-	2
-		3
-			4
-				5
-[root@node1 setupapp]#
-```
+    Arguments:
+        ip    output ip
+        port  output port
+
+    Options:
+        -h --help        help.                                                                                                                                    
+        -v --version     version.                                                                                                                                   
+        -l               print line.                                                                                                                                   
+        -m               say hello
+
+
+Docs
+----
+
+    https://packaging.python.org/tutorials/distributing-packages/#uploading-your-project-to-pypi
+
+
+Requirement
+-----------
+
+.. env::
+   $ pip install docopt
+
+
+Test
+----
+
+.. cmd::
+   $ setupapp -l
+   1
+	  2
+		  3
+			  4
+				  5
+
